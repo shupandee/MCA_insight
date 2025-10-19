@@ -1,0 +1,21 @@
+# Environment Variables for MCA Insights Engine
+# Copy this file to .env and update with your actual values
+
+# Gemini API Key for AI features (optional - uses mock data if not provided)
+GEMINI_API_KEY="API HERE"
+
+# Database Configuration
+DB_PATH=mca_insights.db
+
+# API Configuration
+API_HOST=0.0.0.0
+API_PORT=5000
+
+# Logging Configuration
+LOG_LEVEL=INFO
+LOG_FILE=mca_insights.log
+
+# Web Enrichment Configuration
+ENRICHMENT_SAMPLE_SIZE=50
+ENRICHMENT_DELAY_MIN=0.5
+ENRICHMENT_DELAY_MAX=2.0
